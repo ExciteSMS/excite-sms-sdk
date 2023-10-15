@@ -1,0 +1,19 @@
+{
+    "name": "excitesms/excitesms",
+    "description": "PHP SDK for ExciteSMS",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Excitesms\\Excitesms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kazashim kuzasuwat",
+            "email": "kazashimkuzasuwat@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
