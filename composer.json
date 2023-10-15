@@ -1,11 +1,15 @@
 {
-    "name": "excitesms/excitesms",
-    "description": "PHP SDK for ExciteSMS",
-    "type": "library",
+    "name": "excitesms-php-sdk/excitesms-php-sdk",
+    "description": "ExciteSMS PHP SDK",
+    "type": "lybrary",
+    "require": {
+        "php": "8.2.4",
+        "guzzlehttp/guzzle": "7.9.x-dev"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Excitesms\\Excitesms\\": "src/"
+            "ExcitesmsPhpSdk\\ExcitesmsPhpSdk\\": "src/"
         }
     },
     "authors": [
@@ -15,5 +19,5 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true
 }
