@@ -13,7 +13,7 @@
 
     // Check if the form is submitted
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        $baseUrl = 'https://portal.excitesms.tech';
+        $baseUrl = 'https://gateway.excitesms.com';
         $apiKey = 'Your-API-Key'; // Replace with your API key
 
         $exciteSms = new ExciteSms($baseUrl, $apiKey);
